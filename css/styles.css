@@ -1,0 +1,226 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --late-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navybluemodal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+}
+body {
+  background-color: var(--white);
+  color: var(--slate);
+
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* убрал в ссылках все подчеркивания */
+.link,
+.logo {
+  text-decoration: none;
+}
+/* класс чтобы убрать в списках марикровку */
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+
+/* лого левая часть */
+.logo-web {
+  color: var(--iris);
+
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.logo-web:focus {
+  color: var(--ocean);
+}
+.logo {
+  color: var(--navy-blue);
+
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.logo:focus {
+  color: var(--ocean);
+}
+
+.site-nav .link {
+  color: var(--navy-blue);
+
+  font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--ocean);
+}
+
+.header-contacts .link {
+  color: var(--slate);
+
+  font-weight: 400;
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--ocean);
+}
+/* Section first*/
+
+.section-general {
+  background-color: var(--navy-blue);
+}
+.mein-title {
+  color: var(--white);
+
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+/* Макет для кнопок два вида, order, normal и activ */
+
+.button {
+  color: var(--iris);
+  background-color: var(--cornflower);
+  font-weight: 500;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+.button-order {
+  color: var(--white);
+  background-color: var(--iris);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button.order:hover,
+.button.order:focus {
+  background-color: var(--ocean);
+}
+
+/* По секциям*/
+/* features */
+
+/* скроем заголовок */
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.section-title {
+  color: var(--navy-blue);
+
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.features-list .title {
+  color: var(--navy-blue);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* What are we doing */
+
+/* team */
+
+.team-list .title {
+  color: var(--navy-blue);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-list .text {
+  text-align: center;
+}
+/* footer */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer .logo {
+  color: var(--cloud);
+
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.footer .logo:focus {
+  color: var(--ocean);
+}
+
+.footer .text {
+  color: var(--cornflower);
+}
+
+/*Страница  portfolio */
+
+.link.current {
+  color: var(--ocean);
+}
+
+.partfolio-list .title {
+  color: var(--navy-blue);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.partfolio-list .text-kind {
+  color: var(--slate);
+}
+
+/* Основной цвет текста NAVY BLUE:#2E2F42 */
+/* Цвет текста белый #FFFFFF */
+/* акцент IRIS #4D5AE5 */
+/* Цвет основного текста SLATE #434455 */
+/* Цвет текста футера CORNFLOWER #E7E9FC */
+/* цвет тени кнопки box-shadow rgba(0, 0, 0, 0.15) */
+/* фон кнопок и блоков портфолио  и секции  OUT TEAM CLOUD #F4F4FD */
+/* Тень футера 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08) */ ;
