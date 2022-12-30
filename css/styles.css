@@ -29,8 +29,15 @@ body {
 /* класс чтобы убрать в списках марикровку */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
 /* Site nav */
 
 /* лого левая часть */
@@ -83,9 +90,15 @@ body {
 /* Section first*/
 
 .section-general {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: var(--navy-blue);
 }
 .mein-title {
+  margin: 0 auto;
+  width: 494px;
+  margin-bottom: 48px;
+
   color: var(--white);
 
   font-size: 56px;
@@ -96,6 +109,10 @@ body {
 /* Макет для кнопок два вида, order, normal и activ */
 
 .button {
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+
   color: var(--iris);
   background-color: var(--cornflower);
   font-weight: 500;
@@ -113,6 +130,11 @@ body {
   background-color: var(--ocean);
 }
 .button-order {
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  border: 1px solid transparent;
+
   color: var(--white);
   background-color: var(--iris);
 
@@ -133,6 +155,11 @@ body {
 /* По секциям*/
 /* features */
 
+.section-features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* скроем заголовок */
 .hide {
   position: absolute;
@@ -146,14 +173,22 @@ body {
 }
 
 .section-title {
+  margin: 0;
+  margin-bottom: 72px;
+
   color: var(--navy-blue);
 
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
 }
-
+.features-list {
+  width: 264px;
+}
 .features-list .title {
+  margin: 0;
+  margin-bottom: 8px;
+
   color: var(--navy-blue);
 
   font-weight: 500;
@@ -161,11 +196,27 @@ body {
   line-height: 1.2;
 }
 
+.features-list .text {
+  margin: 0;
+}
+
 /* What are we doing */
 
-/* team */
+.section-work {
+  padding-bottom: 120px;
+}
 
+/* team */
+.section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-list .worker {
+  width: 264px;
+}
 .team-list .title {
+  margin: 0;
+
   color: var(--navy-blue);
 
   font-weight: 500;
@@ -175,14 +226,24 @@ body {
 }
 
 .team-list .text {
+  margin: 0;
+
   text-align: center;
+}
+
+.info {
+  padding: 32px 16px;
 }
 /* footer */
 
 .footer {
   background-color: var(--navy-blue);
 }
+
 .footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+
   color: var(--cloud);
 
   font-family: "Raleway";
@@ -195,9 +256,18 @@ body {
 }
 
 .footer .text {
+  margin: 0;
+
   color: var(--cornflower);
 }
-
+.foot {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.foot-context {
+  width: 264px;
+  outline: 2px solid yellow;
+}
 /*Страница  portfolio */
 
 .link.current {
@@ -205,6 +275,8 @@ body {
 }
 
 .partfolio-list .title {
+  margin: 0;
+
   color: var(--navy-blue);
 
   font-weight: 500;
@@ -213,6 +285,8 @@ body {
 }
 
 .partfolio-list .text-kind {
+  margin: 0;
+
   color: var(--slate);
 }
 
