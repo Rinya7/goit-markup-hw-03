@@ -358,6 +358,10 @@ header {
   flex-wrap: wrap;
 }
 
+.partfolio-list .item {
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .partfolio-list .item:not(:nth-child(3n)) {
   margin-right: 24px;
 }
