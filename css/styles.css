@@ -358,10 +358,6 @@ header {
   flex-wrap: wrap;
 }
 
-.partfolio-list .item {
-  border-bottom: 1px solid var(--cornflower);
-}
-
 .partfolio-list .item:not(:nth-child(3n)) {
   margin-right: 24px;
 }
@@ -373,9 +369,13 @@ header {
   display: inline-block;
 }
 .text-title {
-  margin-left: 16px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .partfolio-list .title {
   margin: 0;
